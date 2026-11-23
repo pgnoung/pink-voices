@@ -1,0 +1,122 @@
+{
+  "schema": "pinkvoices.brand-context",
+  "version": 1,
+  "policy": {
+    "purpose": "candidate evidence for the local matcher and one Sol review",
+    "automatic_replacement": false,
+    "requires_original_text_anchor": true,
+    "requires_context_for_observed_asr_variants": true
+  },
+  "terms": [
+    {
+      "canonical": "Pink Cuts",
+      "aliases": [
+        "พิงก์คัตส์"
+      ],
+      "observed_asr_variants": [
+        "พิ้งครับ",
+        "พิ้งคับ"
+      ],
+      "evidence": {
+        "pink_cuts": "canonical_product_name",
+        "pink_cuts_glossary": true,
+        "personal_dictionary": true,
+        "plaud_exact_documents": 0,
+        "plaud_exact_occurrences": 0
+      },
+      "match": {
+        "requires_context": true,
+        "co_mentions": [
+          "molto"
+        ],
+        "action_words": [
+          "ส่งบรีฟ",
+          "เปิด",
+          "ตัดต่อ",
+          "ไฟล์",
+          "วิดีโอ"
+        ]
+      }
+    },
+    {
+      "canonical": "molto",
+      "aliases": [
+        "มอโต้",
+        "หม้อโต้"
+      ],
+      "observed_asr_variants": [
+        "โมโท"
+      ],
+      "evidence": {
+        "personal_dictionary": true,
+        "qa_expected_spelling": true,
+        "plaud_exact_documents": 0,
+        "plaud_exact_occurrences": 0
+      },
+      "match": {
+        "requires_context": true,
+        "co_mentions": [
+          "Pink Cuts"
+        ],
+        "action_words": [
+          "ส่งบรีฟ",
+          "เปิด",
+          "ตัดต่อ",
+          "ไฟล์",
+          "วิดีโอ"
+        ]
+      }
+    },
+    {
+      "canonical": "LINE OA",
+      "aliases": [
+        "ไลน์โอเอ",
+        "Line OA"
+      ],
+      "evidence": {
+        "pink_cuts_reviewed_vocabulary": true,
+        "company_terminology": true,
+        "plaud_exact_documents": 2,
+        "plaud_exact_occurrences": 2
+      }
+    },
+    {
+      "canonical": "Codex",
+      "aliases": [
+        "โคเด็ก",
+        "โคเดกซ์",
+        "Codexx",
+        "CodeX"
+      ],
+      "evidence": {
+        "pink_cuts_glossary": true,
+        "company_terminology": true,
+        "plaud_exact_documents": 2,
+        "plaud_exact_occurrences": 2
+      }
+    },
+    {
+      "canonical": "ChatGPT",
+      "aliases": [
+        "แชทจีพีที",
+        "แชท GPT",
+        "Chat GPT"
+      ],
+      "evidence": {
+        "pink_cuts_reviewed_vocabulary": true,
+        "company_terminology": true,
+        "plaud_exact_documents": 2,
+        "plaud_exact_occurrences": 2
+      }
+    },
+    {
+      "canonical": "Google Drive",
+      "aliases": [],
+      "evidence": {
+        "company_terminology": true,
+        "plaud_exact_documents": 2,
+        "plaud_exact_occurrences": 2
+      }
+    }
+  ]
+}

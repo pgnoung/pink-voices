@@ -1,0 +1,6 @@
+Voices (open-source code of Pink voices)
+Copyright 2026 pngoung
+
+This product includes software developed by pngoung and contributors, licensed under the Apache License 2.0.
+It downloads, at the user's request, the OpenThai 2.0 ASR model by iApp Technology (OpenMDW-1.1) and runs it
+with NVIDIA NeMo (Apache-2.0). See THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,52 @@
+{
+  "schema": "pinkvoices.brand-context",
+  "version": 1,
+  "policy": {
+    "purpose": "common Thai spellings of widely used product names, checked against the original speech",
+    "automatic_replacement": false,
+    "requires_original_text_anchor": true,
+    "requires_context_for_observed_asr_variants": true
+  },
+  "terms": [
+    {
+      "canonical": "LINE OA",
+      "aliases": [
+        "ไลน์โอเอ",
+        "Line OA"
+      ],
+      "evidence": {
+        "common_term": true
+      }
+    },
+    {
+      "canonical": "Codex",
+      "aliases": [
+        "โคเด็ก",
+        "โคเดกซ์",
+        "Codexx",
+        "CodeX"
+      ],
+      "evidence": {
+        "common_term": true
+      }
+    },
+    {
+      "canonical": "ChatGPT",
+      "aliases": [
+        "แชทจีพีที",
+        "แชท GPT",
+        "Chat GPT"
+      ],
+      "evidence": {
+        "common_term": true
+      }
+    },
+    {
+      "canonical": "Google Drive",
+      "aliases": [],
+      "evidence": {
+        "common_term": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Voices</string>
+	<key>CFBundleExecutable</key>
+	<string>ThaiDictation</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.voices</string>
+	<key>CFBundleName</key>
+	<string>Voices</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9.4</string>
+	<key>CFBundleVersion</key>
+	<string>20261123.3</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>Voices ใช้สิทธิ์นี้เพื่อตรวจช่องพิมพ์ที่เลือกและใส่ข้อความเมื่อปล่อยปุ่ม</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Voices ใช้ไมโครโฟนขณะกดปุ่มค้างเพื่อถอดเสียงด้วย Local AI บน Mac เครื่องนี้</string>
+</dict>
+</plist>
